@@ -38,7 +38,6 @@ Running steps:
             "HOG.m"         -> Iterating over the STIP points and frames of video
             "Collectin_HOG.m"  -> Constructing the HOG descriptors of a video
     
- x``
     
     2) Run "k_means.m" to construct the cluster centres (k=1000). Save the [C,IDX] with the name of clustering_information.mat
        Only training videos are used for this
